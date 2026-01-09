@@ -4,7 +4,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-public Main{
+public class Main{
     @GetMapping("/fruits")
     HashMap<Object,Object>  m(){
     HashMap<Object,Object> res=new HashMap<>();
